@@ -1,7 +1,3 @@
-
-
-addition_nr_2(a,b):= block([c],
-    c: (a+b)
-
-    return(c) 
+add_two_nr(a,b):= block( 
+   (a+b) 
 );
