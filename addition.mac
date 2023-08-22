@@ -1,4 +1,3 @@
 add_two_nr(a,b):= block( 
-    c: a+b,
-    return c
+    return a+b
 )
