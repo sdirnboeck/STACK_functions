@@ -1,0 +1,7 @@
+matr2D(det):= block(
+    /* Generate random Matrix with chosen determinant (det)*/
+    r: rand_with_prohib(-5,5,[0]),
+    up: matrix([1,rand_with_prohib(-5,5,[0])],[0,1]),
+    down: matrix([1, 0],[r, det]),
+    return(up.down)
+)$ 
