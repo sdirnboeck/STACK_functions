@@ -1,0 +1,9 @@
+add_two_nr(a,b):= block( 
+   (a+b) 
+);
+
+
+any_element_member(answer, correct_list):= block(
+   member(true, map(lambda([x], member(x, correct_list)), answer))
+);
+
