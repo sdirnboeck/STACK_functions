@@ -1,3 +1,5 @@
 text_display():= block( 
-   texput(%e,"\\mathrm{e}")
+   texput(%e,"\\mathrm{e}"),
+   texput(log,"\\mathrm{log}_{\\mathrm{e}}", prefix),
+    texput(i,"\\mathrm{i}", nofix),
 );
