@@ -1,3 +1,11 @@
 latex_commands():= block( 
-   "\\newcommand{\R}{{\\rm I\\!R}}"
+   "\\newcommand{\R}{{\\rm I\\!R}}
+    \\newcommand{\dd}{\\mathrm d}
+    \\newcommand{\ee}{\\mathrm e} 
+    \\newcommand{\ii}{\\mathrm i}   
+    \\newcommand{\jj}{\\mathrm j}   
+    \\newcommand{\C}{\\mathbbm C}  
+    \\newcommand{\N}{\\mathbbm N}  
+    \\newcommand{\Q}{\\mathbbm Q}    
+    \\newcommand{\Z}{\\mathbbm Z}" 
 );
