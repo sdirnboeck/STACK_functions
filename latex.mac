@@ -7,5 +7,48 @@ latex_commands():= block(
     \\newcommand{\C}{\\mathbbm C}  
     \\newcommand{\N}{\\mathbbm N}  
     \\newcommand{\Q}{\\mathbbm Q}    
-    \\newcommand{\Z}{\\mathbbm Z}" 
+    \\newcommand{\Z}{\\mathbbm Z}
+
+
+    \\renewcommand{\Gamma}{\\varGamma}
+    \\newcommand{\eps}{\\varepsilon}
+    \\renewcommand{\phi}{\\varphi}
+    \\renewcommand{\theta}{\\vartheta}
+    \\newcommand{\ds}{\\,\\dd s}
+    \\newcommand{\dt}{\\,\\dd t}
+    \\newcommand{\dx}{\\,\\dd x}
+    \\newcommand{\dy}{\\,\\dd y}
+    \\newcommand{\dz}{\\,\\dd z}
+    \\newcommand{\ddx}{\\frac\\dd{\\dd x}}
+    \\newcommand{\bsr}{\\boldsymbol{r}}
+    
+
+    \\DeclareMathOperator{\id}{id}
+    \\DeclareMathOperator{\Log}{Log}
+    \\DeclareMathOperator{\Arg}{Arg}
+    \\DeclareMathOperator{\p}{p}
+    \\DeclareMathOperator{\Hea}{H}
+    \\DeclareMathOperator{\ld}{ld}
+    \\DeclareMathOperator{\arccot}{arccot}
+    \\DeclareMathOperator{\arsinh}{arsinh}
+    \\DeclareMathOperator{\arcosh}{arcosh}
+    \\DeclareMathOperator{\artanh}{artanh}
+    \\DeclareMathOperator{\arcoth}{arcoth}
+    \\DeclareMathOperator{\Arcsin}{Arcsin}
+    \\DeclareMathOperator{\Arccos}{Arccos}
+    \\DeclareMathOperator{\Bild}{Bild}
+    \\DeclareMathOperator{\Spur}{Spur}
+    \\DeclareMathOperator{\Rang}{Rang}
+    \\DeclareMathOperator{\Kern}{Kern}
+    \\DeclareMathOperator{\diag}{diag}
+    \\DeclareMathOperator{\grad}{grad}
+    \\DeclareMathOperator{\ggT}{ggT}
+    \\DeclareMathOperator{\Res}{Res}
+    \\DeclareMathOperator{\Grad}{Grad}
+    \\DeclareMathOperator{\sign}{sign}
+    \\renewcommand{\Im}{\\operatorname{Im}}
+    \\renewcommand{\Re}{\\operatorname{Re}}
+    \\newcommand{\LH}{\\mathcal L}
+    \\newcommand{\VR}{\\mathcal V}
+    " 
 );
