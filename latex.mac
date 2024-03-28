@@ -44,7 +44,7 @@ latex_commands():= block(
     \\DeclareMathOperator{\grad}{grad}
     \\DeclareMathOperator{\ggT}{ggT}
     \\DeclareMathOperator{\Res}{Res}
-    \\DeclareMathOperator{\Grad}{Grad}
+    \\DeclareMathOperator{\\Grad}{Grad}
     \\DeclareMathOperator{\sign}{sign}
     \\renewcommand{\Im}{\\operatorname{Im}}
     \\renewcommand{\Re}{\\operatorname{Re}}
