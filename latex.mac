@@ -1,4 +1,4 @@
-latex_commands():= block( 
+latex_basic():= block( 
    "\\newcommand{\R}{{\\rm I\\!R}}
     \\newcommand{\dd}{\\mathrm d}
     \\newcommand{\ee}{\\mathrm e} 
@@ -20,10 +20,12 @@ latex_commands():= block(
     \\newcommand{\dy}{\\,\\dd y}
     \\newcommand{\dz}{\\,\\dd z}
     \\newcommand{\ddx}{\\frac\\dd{\\dd x}}
-    \\newcommand{\bsr}{\\boldsymbol{r}}
+    \\newcommand{\bsr}{\\boldsymbol{r}} "
     
-
-    \\DeclareMathOperator{\id}{id}
+);
+    
+latex_extended():=block(
+    "\\DeclareMathOperator{\id}{id}
     \\DeclareMathOperator{\Log}{Log}
     \\DeclareMathOperator{\Arg}{Arg}
     \\DeclareMathOperator{\p}{p}
@@ -44,7 +46,7 @@ latex_commands():= block(
     \\DeclareMathOperator{\grad}{grad}
     \\DeclareMathOperator{\ggT}{ggT}
     \\DeclareMathOperator{\Res}{Res}
-    \\DeclareMathOperator{\\Grad}{Grad}
+    \\DeclareMathOperator{\Grad}{Grad}
     \\DeclareMathOperator{\sign}{sign}
     \\renewcommand{\Im}{\\operatorname{Im}}
     \\renewcommand{\Re}{\\operatorname{Re}}
