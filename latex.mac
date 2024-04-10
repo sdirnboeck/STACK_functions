@@ -1,16 +1,17 @@
-latex_basic():= block( 
+latex_sets_numbers():= block( 
    "\\newcommand{\R}{{\\rm I\\!R}}
     \\newcommand{\dd}{\\mathrm d}
     \\newcommand{\ee}{\\mathrm e} 
     \\newcommand{\ii}{\\mathrm i}   
     \\newcommand{\jj}{\\mathrm j}   
-    \\newcommand{\C}{\\mathbbm C}  
-    \\newcommand{\N}{\\mathbbm N}  
-    \\newcommand{\Q}{\\mathbbm Q}    
-    \\newcommand{\Z}{\\mathbbm Z}
+    \\newcommand{\C}{\\mathbb C}  
+    \\newcommand{\N}{\\mathbb N}  
+    \\newcommand{\Q}{\\mathbb Q}    
+    \\newcommand{\Z}{\\mathbb Z} " 
+);     
 
-
-    \\renewcommand{\Gamma}{\\varGamma}
+latex_symbols():=block(
+    "\\renewcommand{\Gamma}{\\varGamma}
     \\newcommand{\eps}{\\varepsilon}
     \\renewcommand{\phi}{\\varphi}
     \\renewcommand{\theta}{\\vartheta}
@@ -24,7 +25,7 @@ latex_basic():= block(
     
 );
     
-latex_extended():=block(
+latex_operators():=block(
     "\\DeclareMathOperator{\id}{id}
     \\DeclareMathOperator{\Log}{Log}
     \\DeclareMathOperator{\Arg}{Arg}
